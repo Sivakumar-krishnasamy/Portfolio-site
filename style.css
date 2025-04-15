@@ -471,7 +471,7 @@ span{
 }
 
 .skill-bar .bar .css{
-    width: 80%;
+    width: 90%;
     animation: css 3s;
 }
 @keyframes css{
@@ -479,7 +479,7 @@ span{
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -510,7 +510,7 @@ span{
 }
 
 .skill-bar .bar .python{
-    width: 30%;
+    width: 50%;
     animation: py 3s;
 }
 @keyframes py{
@@ -518,7 +518,7 @@ span{
         width: 0;
     }
     100%{
-        width: 30%;
+        width: 50%;
     }
 }
 
@@ -777,7 +777,7 @@ outline-color: var(--white-color);
 
     .home .profession-container .profession-box{
         position: fixed;
-        top: 60%;
+        top: 55%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -818,7 +818,7 @@ outline-color: var(--white-color);
 
     .home .profession-container .overlay{
         position: fixed;
-        top: 58rem;
+        top: 50rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -868,6 +868,8 @@ outline-color: var(--white-color);
         padding: 0 3% 30rem;
     }
 
+
+
     .home .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-110px, -220px);
     }
@@ -890,6 +892,9 @@ outline-color: var(--white-color);
 }
 
 @media (max-width: 365px){
+
+    
+
     .about-img img{
         width: 9vw;
     }
